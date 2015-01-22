@@ -118,7 +118,7 @@ class SocialTwitterUpdate extends WireData implements Module, ConfigurableModule
 	
 	
 	public function init() {
-		$this->pages->addHookAfter('save', $this, 'postTweet'); 
+		$this->pages->addHookAfter('published', $this, 'postTweet'); 
 	}
 
 	public function postTweet(HookEvent $event) {

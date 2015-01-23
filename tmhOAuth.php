@@ -49,7 +49,7 @@ class tmhOAuth {
         'bearer'                     => '',
 
         // oauth signing variables that are not dynamic
-        'oauth_version'              => '1.1',
+        'oauth_version'              => '1.0',
         'oauth_signature_method'     => 'HMAC-SHA1',
 
         // you probably don't want to change any of these curl values
